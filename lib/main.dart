@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tudee/screens/card_screen.dart';
+import 'package:tudee/screens/edit_task_screen.dart';
 import 'package:tudee/screens/home_screen.dart';
 import 'package:tudee/screens/welcome_screen.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:AddTaskScreen(),
+      home:EditTaskScreen(),
     );
   }
 }
